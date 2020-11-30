@@ -22,7 +22,7 @@
 <body>
     <div id="app">
         <h1>田村ゆかり LOVE LIVE 2020 振替公演一覧 <a href="https://www.tamurayukari.com/information/?id=210" target="_black">公式情報</a></h1>
-        <multiselect v-model="value" :options="options" :multiple="true" :close-on-select="false" placeholder="会場別絞り込み"></multiselect>
+        <multiselect v-model="value" :options="options" :multiple="true" :close-on-select="false" :searchable="false" placeholder="会場別絞り込み"></multiselect>
         <vue-good-table :columns="columns" :rows="rows" style="margin-top: 2rem"></vue-good-table>
         <table>
         </table>
